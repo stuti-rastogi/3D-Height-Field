@@ -3,14 +3,13 @@
 -------------------------------------------------------------------------------
 
 Name: Stuti Rastogi
-USC ID: 8006687469
-Email: srrastog@usc.edu
 
 Date: 02/14/18
 
 -------------------------------------------------------------------------------
 
 Description: 
+
 The program intends to read a grayscale JPEG heightmap 
 and generate a 3D height field. There is functionality to rotate, 
 translate, scale as well zoom in and zoom out using keyboard 
@@ -20,23 +19,37 @@ wire mesh mode or points mode. Technology used is C++ and OpenGL (core).
 -------------------------------------------------------------------------------
 
 Instructions:
+
 Following are the keys used to interact with the application
+
 f - fill mode (solid is default)
+
 w - wire mode
+
 p - points mode
+
 o - overlay mode (mesh on top of solid fill)
+
 x - screenshot
+
 r - rotate (rotate is set to default)
+
 t - translate
+
 s - scale
+
 + - zoom in (shift + '=' key or '+' key on numpad)
+
 - - zoom out
+
 ESC - exit
 
 (Note: All keys are lowercase)
 
 Following are the mouse buttons used:
+
 LEFT - x and y transformations
+
 RIGHT - z transformation
 
 -------------------------------------------------------------------------------
@@ -44,14 +57,17 @@ RIGHT - z transformation
 Extra Credit:
 
 1. Zoom in and zoom out functionality
+
 2. Overlay wire mesh on top of solid mesh using an offset
 
 -------------------------------------------------------------------------------
 
 Comments:
+
 - There was some issue in the GLUT modifiers on my Mac, I was unable to get ALT 
 CTRL to be recognised. Hence made use of keyboard input to change what type of
 transormation is being performed
+
 Eg: In order to do translate: first press 't' and release. 
 The terminal will display a message saying "You can translate now." 
 Translate along X, Y using the Left mouse button and dragging, and along Z by 
@@ -79,8 +95,13 @@ submission requirement.
 -------------------------------------------------------------------------------
 
 References:
+
 http://prideout.net/archive/colors.php
+
 http://www.glprogramming.com/red/chapter06.html
+
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/
+
+Credits to Prof. Jernej Barbic and the team of CSCI 420 for the starter code.
 
 -------------------------------------------------------------------------------
