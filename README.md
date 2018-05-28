@@ -38,9 +38,9 @@ t - translate
 
 s - scale
 
-+ - zoom in (shift + '=' key or '+' key on numpad)
+'+' - zoom in (shift + '=' key or '+' key on numpad)
 
-- - zoom out
+'-' - zoom out
 
 ESC - exit
 
